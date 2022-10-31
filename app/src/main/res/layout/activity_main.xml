@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    android:textDirection="firstStrongRtl"
+    android:transformPivotY="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autoText="false"
+        android:background="#3F51B5"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Layout-Ejercicio02"
+        android:textColor="#F8F5F5"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6A494747"
+        android:paddingTop="70dp"
+        android:paddingLeft="10dp"
+        android:textSize="26sp"
+        android:text="Type here: " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/textView2"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="110dp"
+
+        android:layout_marginBottom="50dp"
+
+        android:background="#E91E63"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:textColor="#F8F5F5"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonCANCELAR"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#AEACA4"
+        android:text="CANCELAR"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#AEACA4"
+        android:text="OK"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
